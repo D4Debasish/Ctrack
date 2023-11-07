@@ -1,0 +1,29 @@
+.infobox{
+    flex: 1;
+    cursor: pointer;
+}
+Infobox title{
+    color: aquamarine;
+}
+.infobox:not(:last-child){
+    margin-right: 15px;
+}
+.infobox__cases{
+    color: red;
+    margin-bottom: 0.5rem;
+}
+.infobox--red{
+    color:brown
+    
+}
+.infobox__cases--green{
+    color: green !important;
+}
+.infobox__cases--grey{
+    color: rgb(59, 56, 56) !important;
+}
+
+
+.infobox--selected{
+    border-top: 10px solid gainsboro;
+}
